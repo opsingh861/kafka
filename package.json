@@ -1,0 +1,18 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer1": "node consumer1.js",
+    "consumer2": "node consumer2.js",
+    "start": "node producer.js && node consumer1.js && node consumer2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
